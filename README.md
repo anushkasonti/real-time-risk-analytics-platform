@@ -7,7 +7,7 @@
 - **Processor** that consumes new trades, scores risk, and raises alerts
 - **Streamlit dashboard** to visualize exposures, high-risk trades, and simulate stress
 
-## Quick start
+## How to run?
 1. Install requirements
    ```bash
    pip install -r requirements.txt
@@ -37,9 +37,6 @@
    ```bash
    streamlit run dashboard.py
    ```
-
-## Stress testing in the dashboard
-Use the sliders in Streamlit to apply a % shock to FX rates and prices. This recomputes hypothetical exposures on the fly (front-end only for demo).
 
 ## Files
 - `db_init.py` – Creates tables and seeds counterparties, rules, sanctions
