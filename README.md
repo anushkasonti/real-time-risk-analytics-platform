@@ -1,7 +1,4 @@
-# Real-Time Risk Analytics Demo (SQLite + Python)
-
-End-to-end demo for Problem Statement 3: Real-Time Risk Analytics Platform.
-No Kafka; pure Python scripts + SQLite storage + Streamlit dashboard.
+# REAL-TIME RISK ANALYTICS (SQLite + Python)
 
 ## What’s inside
 - **SQLite DB** with tables for trades, risk_scores, alerts, counterparties, and rules
@@ -11,7 +8,7 @@ No Kafka; pure Python scripts + SQLite storage + Streamlit dashboard.
 - **Streamlit dashboard** to visualize exposures, high-risk trades, and simulate stress
 
 ## Quick start
-1. Create a virtual env (optional) and install requirements
+1. Install requirements
    ```bash
    pip install -r requirements.txt
    ```
@@ -40,8 +37,6 @@ No Kafka; pure Python scripts + SQLite storage + Streamlit dashboard.
    ```bash
    streamlit run dashboard.py
    ```
-
-> Tip: You can run generator + processor for a minute, then open the dashboard to see live updates.
 
 ## Stress testing in the dashboard
 Use the sliders in Streamlit to apply a % shock to FX rates and prices. This recomputes hypothetical exposures on the fly (front-end only for demo).
