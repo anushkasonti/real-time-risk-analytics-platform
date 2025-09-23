@@ -1,6 +1,7 @@
-# REAL-TIME RISK ANALYTICS (SQLite + Python)
+# REAL-TIME RISK ANALYTICS
 
-*Project Overview:* Financial institutions process thousands of trades every day, facing risks such as fraud, money laundering, limit breaches, and sanctions violations. Manual monitoring is slow, error-prone, and costly. To address this, we built a real-time risk analytics system that combines rules with an ML anomaly detection model (Isolation Forest), classifies trades as ALLOW, REVIEW, or BLOCK, and presents results through an interactive dashboard with executive summaries, multi-currency exposure views, stress test simulations, and audit-ready logs.
+## Project Overview 
+Financial institutions process thousands of trades every day, facing risks such as fraud, money laundering, limit breaches, and sanctions violations. Manual monitoring is slow, error-prone, and costly. To address this, we built a real-time risk analytics system that combines rules with an ML anomaly detection model (Isolation Forest), classifies trades as ALLOW, REVIEW, or BLOCK, and presents results through an interactive dashboard with executive summaries, multi-currency exposure views, stress test simulations, and audit-ready logs.
 
 ## What’s inside
 - **SQLite DB** with tables for trades, risk_scores, alerts, counterparties, and rules
